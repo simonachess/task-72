@@ -1,11 +1,11 @@
 function Tags(props) {
 	console.log(props)
 	return (
-	  <div className="tags">
+	  <ul className="tags">
 	  	{props.array.map((x, i ) => (
-			  <div key={i} className="tag">#{x}</div>
+			  <li key={i} className="tag">#{x}</li>
 		  ))}
-	  </div>
+	  </ul>
 	);
   }
   
