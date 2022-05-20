@@ -3,7 +3,7 @@ import Tags from "./Tags.js"
 
 function App() {
 
-	const array = ["boomdotdev", "task", "tags", "react"]
+	const tags = ["boomdotdev", "task", "tags", "react"]
 
   return (
     <div className="App">
@@ -16,7 +16,7 @@ function App() {
       <div class="container is-fullhd">
         <div class="notification">
           Edit the <code>./src</code> folder to add components.
-		  <Tags array={array}></Tags>
+		  <Tags tags={tags}></Tags>
         </div>
       </div>
     </div>

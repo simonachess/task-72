@@ -1,8 +1,7 @@
-function Tags(props) {
-	console.log(props)
+function Tags({tags}) {
 	return (
 	  <ul className="tags">
-	  	{props.array.map((x, i ) => (
+	  	{tags.map((x, i ) => (
 			  <li key={i} className="tag">#{x}</li>
 		  ))}
 	  </ul>
