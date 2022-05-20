@@ -3,7 +3,7 @@ import Tags from "./Tags.js"
 
 function App() {
 
-	const array = ["<boomdotdev>", "<task>", "<tags>", "<react>"]
+	const array = ["boomdotdev", "task", "tags", "react"]
 
   return (
     <div className="App">
